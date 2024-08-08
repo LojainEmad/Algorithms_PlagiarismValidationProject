@@ -1,15 +1,11 @@
-# Ensure .cs files are recognized as C#
 *.cs linguist-language=C#
 
-# Ignore binary files from language stats
 *.dll linguist-vendored
 *.exe linguist-vendored
 
-# Optionally, mark auto-generated files as generated
 *.Designer.cs linguist-generated
 *.g.cs linguist-generated
 
-# Ignore other non-source code files from affecting the language detection
 *.config linguist-vendored
 *.resx linguist-vendored
 *.json linguist-vendored
